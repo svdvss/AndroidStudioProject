@@ -28,7 +28,6 @@ class SettingTime :AppCompatActivity() {
             commit()
 
         }
-
         startActivity(Intent(this, SettingScreen::class.java))
     }
 }
